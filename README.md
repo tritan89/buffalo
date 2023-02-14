@@ -7,7 +7,7 @@ Buffalo allows you to make weekly meal plans from user generated or custom recpi
 
 Weekly meal plans can be saved to use again or shared with friends. 
 
-![alt text](https://github.com/[tritan89]/[buffalo]/[main]/BuffaloApp.PNG)
+![alt text](/BuffaloApp.PNG)
 
 
 
