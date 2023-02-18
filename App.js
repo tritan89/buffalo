@@ -10,7 +10,7 @@ import {
   TouchableOpacity,
   ImageBackground,
 } from "react-native";
-import WelcomeScreen from "./app/screens/welcomeScreen";
+import WelcomeScreen from "./app/screens/WelcomeScreen";
 
 export default function App() {
   return <WelcomeScreen></WelcomeScreen>;

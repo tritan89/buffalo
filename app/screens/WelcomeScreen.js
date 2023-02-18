@@ -16,20 +16,20 @@ function WelcomeScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground
-        source={require("./assets/buffalo_background.jpg")}
+        source={require("../assets/buffalo_background.jpg")}
         resizeMode="cover"
         style={styles.image}
       >
         <Text style={styles.text}>Buffalo</Text>
         <StatusBar style="auto" />
       </ImageBackground>
-      <View style={{ loginButton }}></View>
-      <View style={{ registerButton }}></View>
+      <View style={styles.loginButton}></View>
+      <View style={styles.registerButton}></View>
     </SafeAreaView>
   );
 }
 
-export default welcomeScreen;
+export default WelcomeScreen;
 
 const styles = StyleSheet.create({
   container: {
@@ -47,12 +47,12 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   loginButton: {
-    flex: 1,
+    flex: 0.1,
     backgroundColor: "green",
     justifyContent: "flex-end",
   },
   registerButton: {
-    flex: 1,
+    flex: 0.1,
     backgroundColor: "red",
     justifyContent: "flex-end",
   },
