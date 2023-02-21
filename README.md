@@ -14,7 +14,7 @@ Weekly meal plans can be saved to use again or shared with friends.
 
 To run this app first install Expo client with this command
 
-`npm install expo-cli`
+`npm install -g expo-cli`
 
 Next make sure your node version is v16 or less this can be checked with
 
